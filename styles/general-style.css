@@ -1,0 +1,105 @@
+html {
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    color: white;
+    padding: 20px;
+    background-color: black;
+}
+
+.section {
+    margin-top: 10px;
+}
+
+header {
+    background-color: orange;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    color: #16faeb;
+    text-decoration: none;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+   
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+    html {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../images/bg-image.jpg");
+    }
+
+    nav {
+        height: 50px;
+        flex: 100%;
+        display: flex;
+        bottom: 0px;
+        left: -382.5px;
+        margin: 0px auto 0px 50%;
+        margin-left: 50%;
+        position: fixed;
+        width: 765px;
+        border-top: 5px solid orangered;
+        background-color: black;
+      }
+      
+      nav ul {
+        padding: 0;
+        list-style-type: none;
+        flex: 2;
+        display: flex;
+      }
+      
+      nav li {
+        display: inline;
+        text-align: center;
+        flex: 1;
+      }
+      
+
+    body {
+        margin: 0 auto;
+        width: 700px;
+        height: 450px;
+        border: 3px solid white;
+        border-radius: 25px;
+    }
+    
+    abbr:hover {
+        cursor: help;
+    }
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+}
+
+/* iPhone 5 ----------- */
+@media screen and (device-aspect-ratio: 40/71) {
+   
+}
